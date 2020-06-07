@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="400.0" stylesheets="@../Resources/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Saper.RulesController">
+   <children>
+      <Button layoutX="147.0" layoutY="306.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <TextArea fx:id="textRules" layoutX="50.0" layoutY="14.0" prefHeight="300.0" prefWidth="300.0" text="       Gra polega na rozminowaniu pola.&#10;     Wygrywasz gdy odkryjesz wszystkie &#10;              nie zaminowanie pola&#10;  Pola odkrywasz lewym przyciskiem myszy.&#10;  Oznaczanie miejsc w których jest bomba&#10;      odbywa sie prawym przecisk myszy.&#10;   Usunięcie znacznika pdbywa się poprzez &#10;podwójne wciśnięcie prawego przycisku myszy.&#10;                    Powodzenia!" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0" />
+   </children>
+</AnchorPane>
